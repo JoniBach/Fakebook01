@@ -1,0 +1,15 @@
+/* =WordPress Core
+-------------------------------------------------------------- */
+.block-visual .img-box .icon-ico-1::before {
+    content: "\e900" !important;
+}
+.block-visual .img-box .icon-ico-2::before {
+    content: "\e901" !important;
+}
+.block-visual .img-box .icon-ico-3::before {
+    content: "\e90a" !important;
+}
+.block-services .threecolumns h3,
+.content-info .box p span{
+	text-transform: uppercase;
+}

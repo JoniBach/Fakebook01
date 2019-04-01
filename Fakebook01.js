@@ -1,6 +1,7 @@
 //generative collage of zuckerberg by jamescrook.uk
+//Must be run on a server
 
-function preload() {
+/*function preload() {
   // preload() runs once
   pimg = loadImage("zucc1.jpg");
 }
@@ -27,4 +28,4 @@ function draw() {
 rect(x, y, r, r, e, e, e, e);
 
   }
-} 
+}  */
