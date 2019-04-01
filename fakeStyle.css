@@ -1,0 +1,89 @@
+body,html,.row-offcanvas {
+  height:100%;
+}
+
+body {
+  padding-top: 50px;
+}
+
+#sidebarLeft {
+  width: inherit;
+  min-width: 170x;
+  max-width: 170px;
+
+  float: left;
+  height:100%;
+  position:relative;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+
+#sidebarRight {
+  width: inherit;
+  min-width: 170x;
+  max-width: 170px;
+
+  float: right;
+  height:100%;
+  position:relative;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+
+#main {
+  height:100%;
+  overflow:auto;
+}
+
+
+@media screen and (max-width: 768px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+    width:calc(100% + 220px);
+  }
+    
+  .row-offcanvas-left
+  {
+    left: -220px;
+  }
+  
+    .row-offcanvas-right
+  {
+    right: -220px;
+  }
+
+
+  .row-offcanvas-left.active {
+    left: 0;
+  }
+
+  .row-offcanvas-right.active {
+    left: 0;
+  }
+
+
+  .sidebar-offcanvasLeft {
+    position: fixed;
+    top: 0;
+  }
+    .sidebar-offcanvasRight {
+    position: fixed;
+    top: 0;
+  }
+
+img {
+  float: right;
+}
+
+divA {
+
+  padding-left: 20px;
+}
+
+
+p.ex1 {
+  padding-bottom: 25px;
+}
