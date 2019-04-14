@@ -22,6 +22,7 @@ function myFunctionC() {
     x.style.display = "none";
   }
 }
+
 function myAnimationA() {
   let sketch = function(p) {
     p.setup = function(){
